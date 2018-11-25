@@ -1,0 +1,18 @@
+\frametitle{References}
+
+\begin{itemize}
+
+\item[[SB{]}] R.~S.~Sutton and A.~G.~Barto,
+``Reinforcement Learning: An Introduction'', 2nd edition, The MIT
+Press, 2018
+
+\item[[CS{]}]  C.~Szepesva\'ri
+``Algorithms for Reinforcement Learning'', Morgan \& Claypool, 2010
+
+\item[[JT{]}] J.~N.~Tsitsiklis, On the Convergence of Optimistic Policy
+Iteration, JMLR 3 (2002) 59-72
+
+\item[[WD{]}] C.~J.~C.~H.~Watkins and P.~Dayan, Technical Note:
+Q-Learning, Machine Learning, 8, 279-292 (1992)
+
+\end{itemize}

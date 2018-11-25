@@ -1,0 +1,120 @@
+\begin{enumerate}
+
+\item What is the difference between point and region predictors?
+
+\item When does a region predictor make an error?
+
+\item What is meant by accuracy and efficiency of a region predictor?
+  What are the trivial ways to achieve 100\% accuracy or 100\%
+  efficiency?
+
+\item What is the relation between confidence and significance?
+  
+\item What is validity of a predictor on the confidence level
+  $\delta$?
+
+\item What is a non-conformity measure?
+
+\item Describe the non-conformity measure based on shortest distances
+  to the objects with the same and different labels. Will the
+  p-values change if we replace distances by their squares?
+
+\item Give an example of a non-conformity measure based on a
+  regression algorithm.
+
+\item How are p-values calculated from non-conformity scores?
+
+\item How does one make TCP point predictions with confidence and
+  credibility from p-values?
+
+\item How does one make TCP region predictions from p-values?
+
+\item Describe the randomised (smoothed) TCP region predictor. state
+  its validity property. What kind of validity does it imply for the
+  TCP region predictor? Explain.
+
+\item Formulate the optimality property of TCP region predictors.
+
+\item What are the exchangeable distributions? Are i.i.d.\ random
+  variables exchangeable?
+
+\item What are inductive confidence predictors? What is their main
+  advantage over transductive confidence predictors?
+
+\item Formulate the validity property if inductive confidence
+  predictors.
+
+\item Explain why unbalanced datasets may present a problem for
+  transductive confidence predictors.
+
+\item What is a Mondrian taxonomy? Describe the Mondrian predictor and
+  its randomised version.
+
+\item What validity property does the Mondrian predictor have?
+
+\item Consider the problem of recognising handwritten digits with the
+  possible labels $0,1,2,\ldots,9$. Suppose the following p-values (in
+  percent) have been calculated:
+
+\begin{center}
+\begin{tabular}{|c|c|c|c|c|c|c|c|c|c|}
+\hline
+ 0 & 1  & 2  & 3  & 4   & 5  & 6  & 7 & 8  & 9 \\
+\hline
+ 2 & 10 & 21 & 12 &  70 & 15 & 45 & 1 & 32 & 5 \\
+\hline  
+\end{tabular}
+\end{center}
+
+\begin{itemize}
+\item Make a TCP point prediction and calculate its confidence and
+  credibility.
+
+  {\em Answer:} 4, credibility 70\%, confidence 55\%.
+
+\item Make a TCP region predictions with the confidence levels of 95\%
+  and 70\%.
+
+  {\em Answer:} $\Gamma^{0.05} = \{1, 2, 3, 4, 5, 6, 8\}$
+
+  $\Gamma^{0.3} = \{4, 6, 8\}$
+  
+\end{itemize}
+  
+\item Consider the following training set:
+
+\begin{center}
+\begin{tabular}{|c|c|}
+  \hline
+  example & label\\
+  \hline
+  $(2,1)$ & X\\
+  $(0,1)$ & X\\
+  $(-1,1)$ & X\\
+  $(0,-1)$ & O\\
+  $(1,0)$ & O\\
+  \hline
+\end{tabular}
+\end{center}
+
+Make TCP point and region predictions and Mondrian predictions for the
+test example $(1,1)$ using the non-conformity measure
+
+$$A(\Lbag (x_1,y_1), (x_2,y_2),\ldots, (x_{n},y_{n})\Rbag
+,(x,y)) = \frac{\min_{j: y_j = y} d(x_j,x)}{\min_{j: y_j \ne
+y}d(x_j,x)}$$
+
+and confidence levels of $95\%$, $70\%$ and $60\%$.
+
+{\em Answer:} Point prediction: O with confidence $0.6667$ and
+credibility $0.5$.
+
+TCP region predictions: $\Gamma^{0.05}=\{X,O\}$;  $\Gamma^{0.3}=\{X,O\}$;
+$\Gamma^{0.4}=\{O\}$.
+
+Mondrian predictions: $\Gamma^{0.05}=\{X,O\}$;  $\Gamma^{0.3}=\{O\}$;
+$\Gamma^{0.4}=\varnothing$.
+
+
+
+\end{enumerate}
