@@ -1,3 +1,5 @@
 \beamer@endinputifotherversion {3.33pt}
 \select@language {english}
-\beamer@sectionintoc {1}{Motivation and Preliminaries}{4}{0}{1}
+\beamer@sectionintoc {1}{Environment and Policy}{4}{0}{1}
+\beamer@sectionintoc {2}{Value of a State}{11}{0}{2}
+\beamer@sectionintoc {3}{Bellman Equation and Dynamic Programming}{18}{0}{3}

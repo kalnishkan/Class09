@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=latex 2015.2.1)  25 NOV 2018 16:06
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=latex 2015.2.1)  25 NOV 2018 19:18
 entering extended mode
 **\scrollmode
 
@@ -103,7 +103,7 @@ LaTeX Font Info:    ... okay on input line 0.
 
 *\makeatother%
 
-*\fontsize{11}{13.2}\selectfont
+*\fontsize{10}{12}\selectfont
 
 *
 (Please type a command or say `\end')
@@ -119,15 +119,15 @@ File: ot1phv.fd 2001/06/04 scalable font definitions for OT1/phv.
 *
 (Please type a command or say `\end')
 *\immediate\write16{>dim(\the\wd\ASYbox)dim}
->dim(6.11592pt)dim
+>dim(5.55994pt)dim
 
 *\immediate\write16{>dim(\the\ht\ASYbox)dim}
->dim(7.7494pt)dim
+>dim(7.0449pt)dim
 
 *\immediate\write16{>dim(\the\dp\ASYbox)dim}
->dim(0.1814pt)dim
+>dim(0.16492pt)dim
 
-*\fontsize{11}{13.2}\selectfont
+*\fontsize{10}{12}\selectfont
 
 *
 (Please type a command or say `\end')
@@ -140,204 +140,15 @@ File: ot1phv.fd 2001/06/04 scalable font definitions for OT1/phv.
 *
 (Please type a command or say `\end')
 *\immediate\write16{>dim(\the\wd\ASYbox)dim}
->dim(6.11592pt)dim
+>dim(5.55994pt)dim
 
 *\immediate\write16{>dim(\the\ht\ASYbox)dim}
->dim(7.7494pt)dim
+>dim(7.0449pt)dim
 
 *\immediate\write16{>dim(\the\dp\ASYbox)dim}
->dim(0.1814pt)dim
+>dim(0.16492pt)dim
 
-*\fontsize{11}{13.2}\selectfont
-
-*
-(Please type a command or say `\end')
-*\usefont{OT1}{phv}{m}{n}%
-
-*
-(Please type a command or say `\end')
-*\setbox\ASYbox=\hbox{100}
-
-*
-(Please type a command or say `\end')
-*\immediate\write16{>dim(\the\wd\ASYbox)dim}
->dim(18.34776pt)dim
-
-*\immediate\write16{>dim(\the\ht\ASYbox)dim}
->dim(7.7494pt)dim
-
-*\immediate\write16{>dim(\the\dp\ASYbox)dim}
->dim(0.1814pt)dim
-
-*\fontsize{11}{13.2}\selectfont
-
-*
-(Please type a command or say `\end')
-*\usefont{OT1}{phv}{m}{n}%
-
-*
-(Please type a command or say `\end')
-*\setbox\ASYbox=\hbox{0}
-
-*
-(Please type a command or say `\end')
-*\immediate\write16{>dim(\the\wd\ASYbox)dim}
->dim(6.11592pt)dim
-
-*\immediate\write16{>dim(\the\ht\ASYbox)dim}
->dim(7.7494pt)dim
-
-*\immediate\write16{>dim(\the\dp\ASYbox)dim}
->dim(0.1814pt)dim
-
-*\fontsize{11}{13.2}\selectfont
-
-*
-(Please type a command or say `\end')
-*\usefont{OT1}{phv}{m}{n}%
-
-*
-(Please type a command or say `\end')
-*\setbox\ASYbox=\hbox{0}
-
-*
-(Please type a command or say `\end')
-*\immediate\write16{>dim(\the\wd\ASYbox)dim}
->dim(6.11592pt)dim
-
-*\immediate\write16{>dim(\the\ht\ASYbox)dim}
->dim(7.7494pt)dim
-
-*\immediate\write16{>dim(\the\dp\ASYbox)dim}
->dim(0.1814pt)dim
-
-*\fontsize{11}{13.2}\selectfont
-
-*
-(Please type a command or say `\end')
-*\usefont{OT1}{phv}{m}{n}%
-
-*
-(Please type a command or say `\end')
-*\setbox\ASYbox=\hbox{0}
-
-*
-(Please type a command or say `\end')
-*\immediate\write16{>dim(\the\wd\ASYbox)dim}
->dim(6.11592pt)dim
-
-*\immediate\write16{>dim(\the\ht\ASYbox)dim}
->dim(7.7494pt)dim
-
-*\immediate\write16{>dim(\the\dp\ASYbox)dim}
->dim(0.1814pt)dim
-
-*\fontsize{11}{13.2}\selectfont
-
-*
-(Please type a command or say `\end')
-*\usefont{OT1}{phv}{m}{n}%
-
-*
-(Please type a command or say `\end')
-*\setbox\ASYbox=\hbox{0}
-
-*
-(Please type a command or say `\end')
-*\immediate\write16{>dim(\the\wd\ASYbox)dim}
->dim(6.11592pt)dim
-
-*\immediate\write16{>dim(\the\ht\ASYbox)dim}
->dim(7.7494pt)dim
-
-*\immediate\write16{>dim(\the\dp\ASYbox)dim}
->dim(0.1814pt)dim
-
-*\fontsize{11}{13.2}\selectfont
-
-*
-(Please type a command or say `\end')
-*\usefont{OT1}{phv}{m}{n}%
-
-*
-(Please type a command or say `\end')
-*\setbox\ASYbox=\hbox{0}
-
-*
-(Please type a command or say `\end')
-*\immediate\write16{>dim(\the\wd\ASYbox)dim}
->dim(6.11592pt)dim
-
-*\immediate\write16{>dim(\the\ht\ASYbox)dim}
->dim(7.7494pt)dim
-
-*\immediate\write16{>dim(\the\dp\ASYbox)dim}
->dim(0.1814pt)dim
-
-*\fontsize{11}{13.2}\selectfont
-
-*
-(Please type a command or say `\end')
-*\usefont{OT1}{phv}{m}{n}%
-
-*
-(Please type a command or say `\end')
-*\setbox\ASYbox=\hbox{0}
-
-*
-(Please type a command or say `\end')
-*\immediate\write16{>dim(\the\wd\ASYbox)dim}
->dim(6.11592pt)dim
-
-*\immediate\write16{>dim(\the\ht\ASYbox)dim}
->dim(7.7494pt)dim
-
-*\immediate\write16{>dim(\the\dp\ASYbox)dim}
->dim(0.1814pt)dim
-
-*\fontsize{11}{13.2}\selectfont
-
-*
-(Please type a command or say `\end')
-*\usefont{OT1}{phv}{m}{n}%
-
-*
-(Please type a command or say `\end')
-*\setbox\ASYbox=\hbox{0}
-
-*
-(Please type a command or say `\end')
-*\immediate\write16{>dim(\the\wd\ASYbox)dim}
->dim(6.11592pt)dim
-
-*\immediate\write16{>dim(\the\ht\ASYbox)dim}
->dim(7.7494pt)dim
-
-*\immediate\write16{>dim(\the\dp\ASYbox)dim}
->dim(0.1814pt)dim
-
-*\fontsize{11}{13.2}\selectfont
-
-*
-(Please type a command or say `\end')
-*\usefont{OT1}{phv}{m}{n}%
-
-*
-(Please type a command or say `\end')
-*\setbox\ASYbox=\hbox{0}
-
-*
-(Please type a command or say `\end')
-*\immediate\write16{>dim(\the\wd\ASYbox)dim}
->dim(6.11592pt)dim
-
-*\immediate\write16{>dim(\the\ht\ASYbox)dim}
->dim(7.7494pt)dim
-
-*\immediate\write16{>dim(\the\dp\ASYbox)dim}
->dim(0.1814pt)dim
-
-*\fontsize{11}{13.2}\selectfont
+*\fontsize{10}{12}\selectfont
 
 *
 (Please type a command or say `\end')
@@ -350,15 +161,15 @@ File: ot1phv.fd 2001/06/04 scalable font definitions for OT1/phv.
 *
 (Please type a command or say `\end')
 *\immediate\write16{>dim(\the\wd\ASYbox)dim}
->dim(18.34776pt)dim
+>dim(16.67981pt)dim
 
 *\immediate\write16{>dim(\the\ht\ASYbox)dim}
->dim(7.7494pt)dim
+>dim(7.0449pt)dim
 
 *\immediate\write16{>dim(\the\dp\ASYbox)dim}
->dim(0.1814pt)dim
+>dim(0.16492pt)dim
 
-*\fontsize{11}{13.2}\selectfont
+*\fontsize{10}{12}\selectfont
 
 *
 (Please type a command or say `\end')
@@ -371,15 +182,15 @@ File: ot1phv.fd 2001/06/04 scalable font definitions for OT1/phv.
 *
 (Please type a command or say `\end')
 *\immediate\write16{>dim(\the\wd\ASYbox)dim}
->dim(6.11592pt)dim
+>dim(5.55994pt)dim
 
 *\immediate\write16{>dim(\the\ht\ASYbox)dim}
->dim(7.7494pt)dim
+>dim(7.0449pt)dim
 
 *\immediate\write16{>dim(\the\dp\ASYbox)dim}
->dim(0.1814pt)dim
+>dim(0.16492pt)dim
 
-*\fontsize{11}{13.2}\selectfont
+*\fontsize{10}{12}\selectfont
 
 *
 (Please type a command or say `\end')
@@ -392,171 +203,360 @@ File: ot1phv.fd 2001/06/04 scalable font definitions for OT1/phv.
 *
 (Please type a command or say `\end')
 *\immediate\write16{>dim(\the\wd\ASYbox)dim}
->dim(6.11592pt)dim
+>dim(5.55994pt)dim
 
 *\immediate\write16{>dim(\the\ht\ASYbox)dim}
->dim(7.7494pt)dim
+>dim(7.0449pt)dim
 
 *\immediate\write16{>dim(\the\dp\ASYbox)dim}
->dim(0.1814pt)dim
+>dim(0.16492pt)dim
+
+*\fontsize{10}{12}\selectfont
+
+*
+(Please type a command or say `\end')
+*\usefont{OT1}{phv}{m}{n}%
+
+*
+(Please type a command or say `\end')
+*\setbox\ASYbox=\hbox{0}
+
+*
+(Please type a command or say `\end')
+*\immediate\write16{>dim(\the\wd\ASYbox)dim}
+>dim(5.55994pt)dim
+
+*\immediate\write16{>dim(\the\ht\ASYbox)dim}
+>dim(7.0449pt)dim
+
+*\immediate\write16{>dim(\the\dp\ASYbox)dim}
+>dim(0.16492pt)dim
+
+*\fontsize{10}{12}\selectfont
+
+*
+(Please type a command or say `\end')
+*\usefont{OT1}{phv}{m}{n}%
+
+*
+(Please type a command or say `\end')
+*\setbox\ASYbox=\hbox{0}
+
+*
+(Please type a command or say `\end')
+*\immediate\write16{>dim(\the\wd\ASYbox)dim}
+>dim(5.55994pt)dim
+
+*\immediate\write16{>dim(\the\ht\ASYbox)dim}
+>dim(7.0449pt)dim
+
+*\immediate\write16{>dim(\the\dp\ASYbox)dim}
+>dim(0.16492pt)dim
+
+*\fontsize{10}{12}\selectfont
+
+*
+(Please type a command or say `\end')
+*\usefont{OT1}{phv}{m}{n}%
+
+*
+(Please type a command or say `\end')
+*\setbox\ASYbox=\hbox{0}
+
+*
+(Please type a command or say `\end')
+*\immediate\write16{>dim(\the\wd\ASYbox)dim}
+>dim(5.55994pt)dim
+
+*\immediate\write16{>dim(\the\ht\ASYbox)dim}
+>dim(7.0449pt)dim
+
+*\immediate\write16{>dim(\the\dp\ASYbox)dim}
+>dim(0.16492pt)dim
+
+*\fontsize{10}{12}\selectfont
+
+*
+(Please type a command or say `\end')
+*\usefont{OT1}{phv}{m}{n}%
+
+*
+(Please type a command or say `\end')
+*\setbox\ASYbox=\hbox{0}
+
+*
+(Please type a command or say `\end')
+*\immediate\write16{>dim(\the\wd\ASYbox)dim}
+>dim(5.55994pt)dim
+
+*\immediate\write16{>dim(\the\ht\ASYbox)dim}
+>dim(7.0449pt)dim
+
+*\immediate\write16{>dim(\the\dp\ASYbox)dim}
+>dim(0.16492pt)dim
+
+*\fontsize{10}{12}\selectfont
+
+*
+(Please type a command or say `\end')
+*\usefont{OT1}{phv}{m}{n}%
+
+*
+(Please type a command or say `\end')
+*\setbox\ASYbox=\hbox{0}
+
+*
+(Please type a command or say `\end')
+*\immediate\write16{>dim(\the\wd\ASYbox)dim}
+>dim(5.55994pt)dim
+
+*\immediate\write16{>dim(\the\ht\ASYbox)dim}
+>dim(7.0449pt)dim
+
+*\immediate\write16{>dim(\the\dp\ASYbox)dim}
+>dim(0.16492pt)dim
+
+*\fontsize{10}{12}\selectfont
+
+*
+(Please type a command or say `\end')
+*\usefont{OT1}{phv}{m}{n}%
+
+*
+(Please type a command or say `\end')
+*\setbox\ASYbox=\hbox{0}
+
+*
+(Please type a command or say `\end')
+*\immediate\write16{>dim(\the\wd\ASYbox)dim}
+>dim(5.55994pt)dim
+
+*\immediate\write16{>dim(\the\ht\ASYbox)dim}
+>dim(7.0449pt)dim
+
+*\immediate\write16{>dim(\the\dp\ASYbox)dim}
+>dim(0.16492pt)dim
+
+*\fontsize{10}{12}\selectfont
+
+*
+(Please type a command or say `\end')
+*\usefont{OT1}{phv}{m}{n}%
+
+*
+(Please type a command or say `\end')
+*\setbox\ASYbox=\hbox{100}
+
+*
+(Please type a command or say `\end')
+*\immediate\write16{>dim(\the\wd\ASYbox)dim}
+>dim(16.67981pt)dim
+
+*\immediate\write16{>dim(\the\ht\ASYbox)dim}
+>dim(7.0449pt)dim
+
+*\immediate\write16{>dim(\the\dp\ASYbox)dim}
+>dim(0.16492pt)dim
+
+*\fontsize{10}{12}\selectfont
+
+*
+(Please type a command or say `\end')
+*\usefont{OT1}{phv}{m}{n}%
+
+*
+(Please type a command or say `\end')
+*\setbox\ASYbox=\hbox{0}
+
+*
+(Please type a command or say `\end')
+*\immediate\write16{>dim(\the\wd\ASYbox)dim}
+>dim(5.55994pt)dim
+
+*\immediate\write16{>dim(\the\ht\ASYbox)dim}
+>dim(7.0449pt)dim
+
+*\immediate\write16{>dim(\the\dp\ASYbox)dim}
+>dim(0.16492pt)dim
+
+*\fontsize{10}{12}\selectfont
+
+*
+(Please type a command or say `\end')
+*\usefont{OT1}{phv}{m}{n}%
+
+*
+(Please type a command or say `\end')
+*\setbox\ASYbox=\hbox{0}
+
+*
+(Please type a command or say `\end')
+*\immediate\write16{>dim(\the\wd\ASYbox)dim}
+>dim(5.55994pt)dim
+
+*\immediate\write16{>dim(\the\ht\ASYbox)dim}
+>dim(7.0449pt)dim
+
+*\immediate\write16{>dim(\the\dp\ASYbox)dim}
+>dim(0.16492pt)dim
 
 *\setbox\ASYbox=\hbox{0}
 
 *
 (Please type a command or say `\end')
 *\immediate\write16{>dim(\the\wd\ASYbox)dim}
->dim(6.11592pt)dim
+>dim(5.55994pt)dim
 
 *\immediate\write16{>dim(\the\ht\ASYbox)dim}
->dim(7.7494pt)dim
+>dim(7.0449pt)dim
 
 *\immediate\write16{>dim(\the\dp\ASYbox)dim}
->dim(0.1814pt)dim
+>dim(0.16492pt)dim
 
 *\setbox\ASYbox=\hbox{100}
 
 *
 (Please type a command or say `\end')
 *\immediate\write16{>dim(\the\wd\ASYbox)dim}
->dim(18.34776pt)dim
+>dim(16.67981pt)dim
 
 *\immediate\write16{>dim(\the\ht\ASYbox)dim}
->dim(7.7494pt)dim
+>dim(7.0449pt)dim
 
 *\immediate\write16{>dim(\the\dp\ASYbox)dim}
->dim(0.1814pt)dim
+>dim(0.16492pt)dim
 
 *\setbox\ASYbox=\hbox{0}
 
 *
 (Please type a command or say `\end')
 *\immediate\write16{>dim(\the\wd\ASYbox)dim}
->dim(6.11592pt)dim
+>dim(5.55994pt)dim
 
 *\immediate\write16{>dim(\the\ht\ASYbox)dim}
->dim(7.7494pt)dim
+>dim(7.0449pt)dim
 
 *\immediate\write16{>dim(\the\dp\ASYbox)dim}
->dim(0.1814pt)dim
+>dim(0.16492pt)dim
 
 *\setbox\ASYbox=\hbox{0}
 
 *
 (Please type a command or say `\end')
 *\immediate\write16{>dim(\the\wd\ASYbox)dim}
->dim(6.11592pt)dim
+>dim(5.55994pt)dim
 
 *\immediate\write16{>dim(\the\ht\ASYbox)dim}
->dim(7.7494pt)dim
+>dim(7.0449pt)dim
 
 *\immediate\write16{>dim(\the\dp\ASYbox)dim}
->dim(0.1814pt)dim
+>dim(0.16492pt)dim
 
 *\setbox\ASYbox=\hbox{0}
 
 *
 (Please type a command or say `\end')
 *\immediate\write16{>dim(\the\wd\ASYbox)dim}
->dim(6.11592pt)dim
+>dim(5.55994pt)dim
 
 *\immediate\write16{>dim(\the\ht\ASYbox)dim}
->dim(7.7494pt)dim
+>dim(7.0449pt)dim
 
 *\immediate\write16{>dim(\the\dp\ASYbox)dim}
->dim(0.1814pt)dim
+>dim(0.16492pt)dim
 
 *\setbox\ASYbox=\hbox{0}
 
 *
 (Please type a command or say `\end')
 *\immediate\write16{>dim(\the\wd\ASYbox)dim}
->dim(6.11592pt)dim
+>dim(5.55994pt)dim
 
 *\immediate\write16{>dim(\the\ht\ASYbox)dim}
->dim(7.7494pt)dim
+>dim(7.0449pt)dim
 
 *\immediate\write16{>dim(\the\dp\ASYbox)dim}
->dim(0.1814pt)dim
+>dim(0.16492pt)dim
 
 *\setbox\ASYbox=\hbox{0}
 
 *
 (Please type a command or say `\end')
 *\immediate\write16{>dim(\the\wd\ASYbox)dim}
->dim(6.11592pt)dim
+>dim(5.55994pt)dim
 
 *\immediate\write16{>dim(\the\ht\ASYbox)dim}
->dim(7.7494pt)dim
+>dim(7.0449pt)dim
 
 *\immediate\write16{>dim(\the\dp\ASYbox)dim}
->dim(0.1814pt)dim
+>dim(0.16492pt)dim
 
 *\setbox\ASYbox=\hbox{0}
 
 *
 (Please type a command or say `\end')
 *\immediate\write16{>dim(\the\wd\ASYbox)dim}
->dim(6.11592pt)dim
+>dim(5.55994pt)dim
 
 *\immediate\write16{>dim(\the\ht\ASYbox)dim}
->dim(7.7494pt)dim
+>dim(7.0449pt)dim
 
 *\immediate\write16{>dim(\the\dp\ASYbox)dim}
->dim(0.1814pt)dim
+>dim(0.16492pt)dim
 
 *\setbox\ASYbox=\hbox{0}
 
 *
 (Please type a command or say `\end')
 *\immediate\write16{>dim(\the\wd\ASYbox)dim}
->dim(6.11592pt)dim
+>dim(5.55994pt)dim
 
 *\immediate\write16{>dim(\the\ht\ASYbox)dim}
->dim(7.7494pt)dim
+>dim(7.0449pt)dim
 
 *\immediate\write16{>dim(\the\dp\ASYbox)dim}
->dim(0.1814pt)dim
+>dim(0.16492pt)dim
 
 *\setbox\ASYbox=\hbox{0}
 
 *
 (Please type a command or say `\end')
 *\immediate\write16{>dim(\the\wd\ASYbox)dim}
->dim(6.11592pt)dim
+>dim(5.55994pt)dim
 
 *\immediate\write16{>dim(\the\ht\ASYbox)dim}
->dim(7.7494pt)dim
+>dim(7.0449pt)dim
 
 *\immediate\write16{>dim(\the\dp\ASYbox)dim}
->dim(0.1814pt)dim
+>dim(0.16492pt)dim
 
 *\setbox\ASYbox=\hbox{100}
 
 *
 (Please type a command or say `\end')
 *\immediate\write16{>dim(\the\wd\ASYbox)dim}
->dim(18.34776pt)dim
+>dim(16.67981pt)dim
 
 *\immediate\write16{>dim(\the\ht\ASYbox)dim}
->dim(7.7494pt)dim
+>dim(7.0449pt)dim
 
 *\immediate\write16{>dim(\the\dp\ASYbox)dim}
->dim(0.1814pt)dim
+>dim(0.16492pt)dim
 
 *\setbox\ASYbox=\hbox{0}
 
 *
 (Please type a command or say `\end')
 *\immediate\write16{>dim(\the\wd\ASYbox)dim}
->dim(6.11592pt)dim
+>dim(5.55994pt)dim
 
 *\immediate\write16{>dim(\the\ht\ASYbox)dim}
->dim(7.7494pt)dim
+>dim(7.0449pt)dim
 
 *\immediate\write16{>dim(\the\dp\ASYbox)dim}
->dim(0.1814pt)dim
+>dim(0.16492pt)dim
 
 *
 ! Emergency stop.
 <*> \immediate\write16{>dim(\the\dp\ASYbox)dim}
-                        
+                          

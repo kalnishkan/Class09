@@ -58,7 +58,7 @@ Q-Learning, Machine Learning, 8, 279-292 (1992)
 \end{itemize}
 \end{frame}
 
-\section[Preliminaries]{Motivation and Preliminaries}
+\section[Preliminaries]{Environment and Policy}
 
 \begin{frame}\frametitle{Principal Setup}
 
@@ -121,10 +121,10 @@ state)}; further moves from it are neither possible nor needed
 
 
 --- reward $r = \text{Reward}(s,a)$, where $\text{Reward}: S\times
-    A\to R$ is a function
+    A\to \R$ is a function
 
 --- state we move into $s = \text{State}(s,a)$, where $\text{State}:
-    S\times A$ is a function
+    S\times A\to S$ is a function
 
 \item the environment can be described by two functions
 
@@ -143,17 +143,198 @@ state)}; further moves from it are neither possible nor needed
     $\text{Reward}_{s,a}$ and $\text{State}_{s,a}$
 
 \item the environment may be described by a collection of
-    distributions on $R\times S$
+    distributions on $S\times \R$
 
 --- there is one distribution for each pair $(s,a)$
 
 \item this is called a \alert{Markov Decision Process (MDP)}
 
 \item we assume the MDP is stationary, i.e., if we return to state $s$
-and choose the same action $a$, we are faced with the same possibilities
+and choose the same action $a$, we are faced with the same
+probabilities
 
 \end{itemize}
 \end{frame}
+
+
+\begin{frame}\frametitle{Finite MDP}
+\begin{itemize}
+
+\item we will be dealing with the case of finite sets of states $S$
+and actions $A$
+
+\item an MDP specifies:
+
+--- the probabilities that upon choosing an action
+$a$ in a state $s$ we move to a state $s'$: $\Pr(s'\mid s,a)$
+
+--- the random variable $R_{s,a}$ giving us the reward if we choose an
+action $a$ in a state $s$
+
+\item we assume that all rewards are bounded
+
+--- more technical assumption: the expectation and variance of
+    $R_{s,a}$ exist
+
+\end{itemize}
+\end{frame}
+
+\begin{frame}\frametitle{Policy}
+\begin{itemize}
+
+\item a deterministic policy is a function from states to actions
+    $\pi: S\to A$
+
+--- given a state, it tells us what action we should take
+
+\item a stochastic policy can toss a coin before it decides what
+action to take
+
+--- in other words, a stochastic policy is a set of distributions on
+    the set of actions, one for each state
+
+\item in the case of a finite MDP, a stochastic policy $\pi$ specifies
+    probability $\pi(a\mid s)$ of taking an action $a$ in a state $s$
+
+\end{itemize}
+\end{frame}
+
+
+
+\section{Value of a State}
+
+\begin{frame}\frametitle{Cumulative Reward}
+\begin{itemize}
+
+\item consider an MDA and a policy $\pi$
+
+\item suppose that we start in a state $s_0$ and follow a policy $\pi$
+
+--- we take an action $A_0$ (a random variable), get reward $R_1$ and
+    go to the state $S_1$ (both random variables)
+
+--- we then take an action $A_1$, get reward $R_2$ and
+    go to the state $S_2$ etc
+
+--- we get a sequence $s_0, A_0, R_1, S_1, A_1, R_2, S_2, A_3,\ldots$ 
+
+\item we want a policy to bring high reward
+
+--- quickly
+
+\item pick a discounting factor $\gamma\in [0,1]$
+
+\item the \alert{discounted cumulative reward} is
+
+$$G_t = R_0 + \gamma R_1 +\gamma^2 R_2 + \gamma^3 R_3+\ldots$$
+
+\end{itemize}
+\end{frame}
+
+
+\begin{frame}\frametitle{Discounting}
+\begin{itemize}
+
+\item the choice of $\gamma$ reflects our preferences to immediate
+rewards vs future rewards
+
+--- the value $\gamma = 0$ implies that only the immediate reward
+    matters
+
+--- the value $\gamma = 1$  implies that the moment of time when the
+    reward arrives does not matter at all
+
+
+\item mathematically the values $\gamma<1$ make sure the series
+    converges
+
+--- the sequence of rewards $r_1, r_2, r_3, \ldots$ may be finite (if
+    we run into a terminal state, all rewards are zeros from some
+    point) or infinite (even if the set of states is finite)
+
+--- but if the rewards are bounded and $\gamma<1$, the series
+    $r_0+\gamma r_1+\gamma^2r_2+\ldots$ always converges
+
+
+\end{itemize}
+\end{frame}
+
+
+\begin{frame}\frametitle{Value of a State}
+\begin{itemize}
+
+\item the value
+
+$$V_\pi(s_0) = \bE G_t = \bE ( R_0 + \gamma R_1 +\gamma^2 R_2
++ \gamma^3 R_3+\ldots)$$
+
+shows how much reward $V$ earns on average if we start from state $s_0$
+
+\end{itemize}
+\end{frame}
+
+
+\begin{frame}\frametitle{Optimal Value Function}
+\begin{itemize}
+
+\item we want to find an optimal policy maximising rewards
+
+\item define $V^*(s) = \sup_\pi(s)$
+
+--- this is the value of the discounted cumulative reward if we follow
+    an optimal policy from $s$
+
+\end{itemize}
+\end{frame}
+
+
+\begin{frame}\frametitle{Gridworld Example}
+\begin{itemize}
+
+\item assume $\gamma = 0.9$
+
+\item clearly, the best we can do in the gridworld example is to run
+    towards the exit asap
+
+\bigskip
+
+\includegraphics[scale=1]{gridworld_optimal}
+
+
+
+\end{itemize}
+\end{frame}
+
+
+\begin{frame}\frametitle{Optimal Policy}
+\begin{itemize}
+
+\item we have actually constructed an optimal policy $\pi^*$ such that
+$$ V^*(s) = V_{\pi^*}(s)$$
+
+--- our optimal policy achieves the optimal values for all $s$
+
+\item in a general case, is there such a policy?
+
+--- are the values $V^*(s)$ actually achieved by the same $\pi$ for
+    different states $s$?
+
+\item we can define an optimal policy as $\pi^*$ such that for any
+other policy $\pi$ and any state $s$ we have $V_{\pi^*}(s)\ge
+V_{\pi}(s)$
+
+--- does an optimal policy exist?
+
+--- does it achieve $V^*(s)$?
+
+\item the answers to all these questions are positive (at least for
+finite MDPs) but this requires further study
+
+\end{itemize}
+\end{frame}
+
+
+\section[DP]{Bellman Equation and Dynamic Programming}
 
 \end{document}
 
