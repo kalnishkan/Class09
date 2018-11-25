@@ -39,11 +39,14 @@ Slide \insertframenumber/\inserttotalframenumber ] {\what}
 
 \begin{itemize}
 
+\item[[TM{]}] T.~M.~Mitchell, ``Machine Learning'', McGraw-Hill, 1998,
+  Chapter 13.
+
 \item[[SB{]}] R.~S.~Sutton and A.~G.~Barto, 
 ``Reinforcement Learning: An Introduction'', 2nd edition, The MIT
 Press, 2018
 
-\item[[CS{]}]  C.~Szepesva\'ri
+\item[[CS{]}]  C.~Szepesv\'ari
 ``Algorithms for Reinforcement Learning'', Morgan \& Claypool, 2010
 
 \item[[JT{]}] J.~N.~Tsitsiklis, On the Convergence of Optimistic Policy
@@ -57,19 +60,97 @@ Q-Learning, Machine Learning, 8, 279-292 (1992)
 
 \section[Preliminaries]{Motivation and Preliminaries}
 
-\begin{frame}\frametitle{Example: USPS}
+\begin{frame}\frametitle{Principal Setup}
 
 \begin{itemize}
 
-\item the problem is to label an image, which is a $16\times16$ matrix of pixels
+\item a learning agent interacts with an environment
 
---- it is known that an image represents a hand-written
-digit, from 0 to 9
+--- the agent takes an action
 
-\item we are given a training set containing a large
-number of labelled images
+--- the environment gives a reward and changes its state
 
---- USPS dataset: scanned zip codes from envelopes
+\bigskip
+
+\includegraphics[scale=1]{agent_environment}
+
+\item we make the Markov assumption: all activity (choice of the
+action, reward, state to go to) depends on the
+current state rather then the whole history
+
+--- given the current state, the future is independent of the past
+
+\item the current state is visible to the agent
+
+\end{itemize}
+\end{frame}
+
+
+\begin{frame}\frametitle{Gridworlds}
+\begin{itemize}
+
+\item gridworlds are toy examples used to illustrate principles of
+reinforcement learning
+
+\bigskip
+
+\includegraphics[scale=1]{gridworld}
+\begin{minipage}{5cm}
+~~~~~~~~~~~~(after [TM], Fig.~13.2)
+\end{minipage}
+
+\item the agent can move from a square to a neighbouring square; the
+rewards are shown on the diagram
+
+\item here the top right corner is a \alert{goal state (or terminal
+state)}; further moves from it are neither possible nor needed
+
+\end{itemize}
+\end{frame}
+
+\begin{frame}\frametitle{Deterministic Environment}
+\begin{itemize}
+
+\item this example is a deterministic environment
+
+--- the reward and the state we move into are functions of the current
+    state and action taken
+
+\item let $S$ be the set of all states and $A$ be the set of all
+    actions; if the environment is deterministic, then
+
+
+--- reward $r = \text{Reward}(s,a)$, where $\text{Reward}: S\times
+    A\to R$ is a function
+
+--- state we move into $s = \text{State}(s,a)$, where $\text{State}:
+    S\times A$ is a function
+
+\item the environment can be described by two functions
+
+\end{itemize}
+\end{frame}
+
+\begin{frame}\frametitle{Stochastic Environment}
+\begin{itemize}
+
+\item suppose we are controlling a robot in a real-life situation
+
+\item there is uncertainty as to what happens after an action
+
+--- the reward we get and the state we move into after taking an
+    action $a$ in a state $s$ can be modelled by random variables
+    $\text{Reward}_{s,a}$ and $\text{State}_{s,a}$
+
+\item the environment may be described by a collection of
+    distributions on $R\times S$
+
+--- there is one distribution for each pair $(s,a)$
+
+\item this is called a \alert{Markov Decision Process (MDP)}
+
+\item we assume the MDP is stationary, i.e., if we return to state $s$
+and choose the same action $a$, we are faced with the same possibilities
 
 \end{itemize}
 \end{frame}

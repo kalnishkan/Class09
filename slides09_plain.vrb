@@ -2,11 +2,14 @@
 
 \begin{itemize}
 
+\item[[TM{]}] T.~M.~Mitchell, ``Machine Learning'', McGraw-Hill, 1998,
+  Chapter 13.
+
 \item[[SB{]}] R.~S.~Sutton and A.~G.~Barto,
 ``Reinforcement Learning: An Introduction'', 2nd edition, The MIT
 Press, 2018
 
-\item[[CS{]}]  C.~Szepesva\'ri
+\item[[CS{]}]  C.~Szepesv\'ari
 ``Algorithms for Reinforcement Learning'', Morgan \& Claypool, 2010
 
 \item[[JT{]}] J.~N.~Tsitsiklis, On the Convergence of Optimistic Policy

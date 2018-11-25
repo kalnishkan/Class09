@@ -1,0 +1,4 @@
+settings.outformat = "pdf";
+size(5cm);
+path s = (0,0){up} .. (1,1) .. (2,sqrt(2));
+draw(s);
